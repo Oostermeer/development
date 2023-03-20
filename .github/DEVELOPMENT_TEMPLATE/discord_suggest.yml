@@ -1,0 +1,30 @@
+name: Discord suggestie
+description: Een suggestie voor in de discord dat veranderd moet worden
+title: "[DISCORD]: "
+labels: ["discord", "suggest"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dankjewel dat je deze suggestie wil melden!
+        De onderstaande gegevens moet je zo goed en zo duidelijk mogelijk invullen zodat wij het sneller kunnen fixen!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact
+      description: Als wij inhoudelijk in moeten gaan op de suggestie, naar welke discord naam kunnen wij een bericht sturen?
+      placeholder: "bijv. Jeremy.#7020"
+    validations:
+      required: false
+  - type: textarea
+    id: discord-description
+    attributes:
+      label: "Beschrijf zo duidelijk mogelijk de suggestie voor in de toekomst"
+    validations:
+      required: true
+  - type: textarea
+    id: solves
+    attributes:
+      label: "Wat lost deze suggestie op?"
+    validations:
+      required: true
