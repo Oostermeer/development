@@ -81,11 +81,3 @@ body:
        Zet hier eventuele errors in, die gekopieerd zijn uit je F8?
       placeholder: Sleep hier je logbestanden heen
       required: true
-  - type: checkboxes
-    id: richtlijnen
-     attributes:
-      label: "Richtlijnen"
-      description: "Indien je deze bug meld ga je automatisch akkoord met de richtlijnen. Je dient je ten alle tijden te houden aan deze richtlijnen."
-      options:
-        - label: Ik ga akkoord met deze richtlijnen.
-          required: true
