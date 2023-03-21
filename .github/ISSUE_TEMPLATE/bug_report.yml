@@ -56,11 +56,10 @@ body:
         - Laag
         - Niet van toepassing
   - type: dropdown
-    id: impact
+    id: need
     attributes:
       description: "Is er op dit moment zo snel mogelijk een developer nodig?"
       label: "Onderhoud"
       options:
         - Ja
         - Nee
-        required: true
