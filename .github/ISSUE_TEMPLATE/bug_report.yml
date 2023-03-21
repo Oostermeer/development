@@ -19,10 +19,10 @@ body:
   - type: textarea
     id: what-happened
     attributes:
-      label: Wat is er gebeurd?
-      description: Wat is er precies gebeurd, heb je errors gezien in je F8? Was er een crash?
+      label: Wat gebeurde er?
+      description: Wat gebeurde er precies, welke errors in je F8 waren er te zien?
       placeholder: |
-        Voorbeeld: Ik zag dat er een error in de F8, dit gaf aan dat je geen spullen kon pakken uit de kluis van de politie.
+      Ik zag dat je geen spullen kon pakken.
     validations:
       required: true
   - type: textarea
