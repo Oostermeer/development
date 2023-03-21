@@ -52,6 +52,13 @@ body:
       description: "Is hier een impact mee?"
       label: "Wat is de impact van deze bug?"
       options:
-        - hoog
-        - laag
-        - geen
+        - Hoog
+        - Laag
+        - Niet van toepassing
+  - type: dropdown
+    id: impact
+    attributes:
+      description: "Is er op dit moment zo snel mogelijk een developer nodig?"
+      options:
+        - Ja
+        - Nee
