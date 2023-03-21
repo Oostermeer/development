@@ -65,14 +65,6 @@ body:
         - Hoog
         - Laag
         - Niet
-  - type: dropdown
-    id: impact
-    attributes:
-       description: "Is er spoed?"
-       label: "Moet er zo snel mogelijk een developer naar kijken?"
-       options:
-        - Ja
-        - Nee
   - type: textarea
     id: logs
     attributes:
