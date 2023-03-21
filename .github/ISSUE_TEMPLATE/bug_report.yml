@@ -62,14 +62,6 @@ body:
       description: "Is hier een impact mee?"
       label: "Wat is de impact van deze bug?"
       options:
-        - Hoog
-        - Laag
-        - Niet
-  - type: textarea
-    id: logs
-    attributes:
-      label: Log bestanden
-      description: |
-       Zet hier eventuele errors in, die gekopieerd zijn uit je F8?
-      placeholder: Sleep hier je logbestanden heen
-      required: true
+        - hoog
+        - laag
+        - geen
