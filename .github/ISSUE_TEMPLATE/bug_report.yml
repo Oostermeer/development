@@ -62,3 +62,4 @@ body:
       options:
         - Ja
         - Nee
+        required: true
