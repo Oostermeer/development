@@ -20,7 +20,7 @@ body:
       label: Wat gebeurde er?
       description: Wat gebeurde er precies, welke errors in je F8 waren er te zien?
       placeholder: |
-      "Ik zag dat je geen spullen kon pakken."
+        Voorbeeld: Je kon geen spullen uit de kluis pakken.
   - type: textarea
     id: what-should-happen
     attributes:
