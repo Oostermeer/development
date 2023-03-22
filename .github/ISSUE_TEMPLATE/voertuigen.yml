@@ -1,0 +1,44 @@
+name: Voertuigen bug / suggesties 
+description: Beschrijf een bug / suggestie van een voertuig
+title: "[Voertuigen]: "
+labels: ["vehicles", "new"]
+body:
+  - type: markdown
+    attributes:
+      value:
+        Vul de onderstaande gegevens zo goed mogelijk in zodat wij er snel en duidelijk op kunnen handelen!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact
+      description: Als wij inhoudelijk in moeten gaan op de suggestie, naar welke discord naam kunnen wij een bericht sturen?
+      placeholder: bijv. Jeremy.#7020
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Wat is de bug van het voertuig?
+      description: Wat is je bug, zodat de server verbeterd kan worden?
+      placeholder: |
+        Voorbeeld: Het voertuig heeft geen achterklep, deze is gebugged en als je hem open doet gebeurd er niets.
+  - type: textarea
+    id: what-should-happen
+    attributes:
+      label: Wat is je suggestie voor voertuigen?
+      description: Welk voertuig zou je in de server willen hebben?
+      placeholder: |
+        Voorbeeld: Een Audi RS6 ABT.
+  - type: textarea
+    id: repro
+    attributes:
+      label: "Wat hebben wij hiervoor nodig?"
+      description: "Wat hebben wij nodig om deze bug te achterhalen / Wat hebben wij nodig om dit voertuig in de game te doen"
+      placeholder: |
+        Voorbeeld: (linkje van video / bestand)
+  - type: dropdown
+    id: frequency
+    attributes:
+      description: "Richtlijnen"
+      label: "Ga je akkoord met de richtlijnen? Indien (nee) aangedrukt, gaan we deze bug / suggestie niet doorvoeren."
+      options:
+        - Ja
+        - Nee
