@@ -1,0 +1,38 @@
+name: Discord Suggesties 
+description: Beschrijf een discord suggestie die in de discord doorgevoerd moet worden
+title: "[Discord Suggestie]: "
+labels: ["suggest", "discord", "new"]
+body:
+  - type: markdown
+    attributes:
+      value:
+        Dankjewel dat je deze suggestie wilt aanmaken!
+        Vul de onderstaande gegevens zo goed mogelijk in zodat wij er snel en duidelijk op kunnen handelen!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact
+      description: Als wij inhoudelijk in moeten gaan op de suggestie, naar welke discord naam kunnen wij een bericht sturen?
+      placeholder: bijv. Jeremy.#7020
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Wat is je suggestie?
+      description: Wat is je suggestie, zodat de discord verbeterd kan worden?
+      placeholder: |
+        Voorbeeld: Maak een kanaal aan met updates die over de server gaan, zo zien we wat er word veranderd in de server.
+  - type: textarea
+    id: what-should-happen
+    attributes:
+      label: Wat verbeterd deze suggestie?
+      description: Wat kan deze suggestie verbeteren ten opzichte van de discord server?
+      placeholder: |
+        Voorbeeld: Deze suggestie zorgt ervoor dat mensen een duidelijk overzicht hebben wat er in de FiveM server word veranderd
+  - type: dropdown
+    id: frequency
+    attributes:
+      description: "Richtlijnen"
+      label: "Ga je akkoord met de richtlijnen? Indien (nee) aangedrukt, gaan we deze discord suggestie niet doorvoeren."
+      options:
+        - Ja
+        - Nee
