@@ -1,7 +1,7 @@
 name: Server Suggesties 
 description: Beschrijf een suggestie die je in de server wilt hebben
 title: "[Server Suggestie]: "
-labels: ["suggest", "new"]
+labels: ["help wanted", "new"]
 body:
   - type: markdown
     attributes:
