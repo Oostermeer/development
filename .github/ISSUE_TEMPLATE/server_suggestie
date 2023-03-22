@@ -1,0 +1,45 @@
+name: Server Suggesties 
+description: Beschrijf een suggestie die je in de server wilt hebben
+title: "[Server Suggestie]: "
+labels: ["suggest", "new"]
+body:
+  - type: markdown
+    attributes:
+      value:
+        Dankjewel dat je deze suggestie wilt aanmaken!
+        Vul de onderstaande gegevens zo goed mogelijk in zodat wij er snel en duidelijk op kunnen handelen!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact
+      description: Als wij inhoudelijk in moeten gaan op de suggestie, naar welke discord naam kunnen wij een bericht sturen?
+      placeholder: bijv. Jeremy.#7020
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Wat is je suggestie?
+      description: Wat is je suggestie, zodat de server verbeterd kan worden?
+      placeholder: |
+        Voorbeeld: Een uitgebreider drugs systeem, dat je daadwerkelijk meer animaties doet bij het plukken van bepaalde drugs
+  - type: textarea
+    id: what-should-happen
+    attributes:
+      label: Wat verbeterd deze suggestie?
+      description: Wat kan deze suggestie verbeteren ten opzichte van de server?
+      placeholder: |
+        Voorbeeld: Deze suggestie verbeterd dat mensen zin hebben om drugs te plukken, verwerken en verkopen.
+  - type: textarea
+    id: repro
+    attributes:
+      label: "wat hebben wij hiervoor nodig?"
+      description: "Wat hebben wij nodig qua server scripts om dit te kunnen laten werken?"
+      placeholder: |
+        Voorbeeld: (linkje van video)
+  - type: dropdown
+    id: frequency
+    attributes:
+      description: "Richtlijnen"
+      label: "Ga je akkoord met de richtlijnen? Indien (nee) aangedrukt, gaan we deze suggestie niet doorvoeren."
+      options:
+        - Ja
+        - Nee
