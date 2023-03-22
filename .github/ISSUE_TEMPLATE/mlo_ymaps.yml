@@ -1,0 +1,44 @@
+name: MLO / YMAPS
+description: Beshcrijf een bug of een suggestie voor de MLO / YMAPS
+title: "[MLO/YMAP]: "
+labels: ["mlo", "ymap"]
+body:
+  - type: markdown
+    attributes:
+      value:
+        Vul de onderstaande gegevens zo goed mogelijk in zodat wij er snel en duidelijk op kunnen handelen!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact
+      description: Als wij inhoudelijk in moeten gaan op deze bug / suggestie, naar welke discord naam kunnen wij een bericht sturen?
+      placeholder: bijv. Jeremy.#7020
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Welke MLO / YMAP moet in de server komen?
+      description: Indien niet van toepassing, vul n.v.t. in?
+      placeholder: |
+        Voorbeeld: Mooiere uitbreiding van bomen in sandy.
+  - type: textarea
+    id: what-should-happen
+    attributes:
+      label: Wat verbeterd deze MLO/YMAP?
+      description: Wat voegt dit toe?
+      placeholder: |
+        Voorbeeld: Dit zorgt voor een meer gevulde map en een betere "look"
+  - type: textarea
+    id: repro
+    attributes:
+      label: "Naam van de MLO/YMAP"
+      description: "Vul dit in zodat wij weten wat jij precies wilt."
+      placeholder: |
+        Voorbeeld: (linkje van bestand / video)
+  - type: dropdown
+    id: frequency
+    attributes:
+      description: "Richtlijnen"
+      label: "Ga je akkoord met de richtlijnen? Indien (nee) aangedrukt, gaan we deze suggestie niet doorvoeren."
+      options:
+        - Ja
+        - Nee
