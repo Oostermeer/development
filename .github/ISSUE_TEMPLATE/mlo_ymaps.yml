@@ -1,6 +1,6 @@
 name: MLO / YMAPS
 description: Beshcrijf een bug of een suggestie voor de MLO / YMAPS
-title: "[MLO/YMAP]: "
+title: "[MLO/YMAP]:"
 labels: ["MLO/YMAP", "new"]
 body:
   - type: markdown
