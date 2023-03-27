@@ -14,5 +14,5 @@ jobs:
         with:
           # You can target a repository in a different organization
           # to the issue
-          project-url: https://github.com/orgs/Oostermeer/projects/1
+          project-url: https://github.com/Oostermeer/development
           github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
